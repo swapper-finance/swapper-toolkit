@@ -66,6 +66,51 @@ Create, fund, and manage agent wallets.
 
 ## SDK Integration
 
+## FAQ
+
+### General
+
+**What is Swapper AI Agent Toolkit?**
+Swapper is a payment layer for AI agents that enables deposit, swap, and wallet management capabilities directly from coding assistants and AI agent frameworks. It works with Claude Code, Cursor, Windsurf, GitHub Copilot, CrewAI, and any agent supporting the open skills standard.
+
+**Which blockchains are supported?**
+Swapper supports 60+ blockchains via Chainlink CCIP cross-chain infrastructure, including Ethereum, Arbitrum, Base, Optimism, Polygon, and more.
+
+### Installation & Setup
+
+**How do I install the toolkit?**
+Run `npx skills add swapperfinance/swapper-toolkit` in your project directory. The skills will be available to your AI agent or coding assistant.
+
+**Do I need a Swapper account?**
+No. Swapper works with any wallet address. Transactions require explicit user confirmation for security.
+
+### Wallet & Deposits
+
+**How does wallet management work?**
+The `/swapper-wallet` skill enables smart wallet creation with account abstraction, multi-chain setup, and funding via fiat or crypto. Private keys are never stored or accessed by Swapper.
+
+**What deposit methods are available?**
+Direct crypto transfers, cross-chain bridge transfers via Chainlink CCIP, protocol deposits (lending, staking, liquidity pools), and fiat on-ramp through Mastercard, Visa, Apple Pay, and Google Pay across 170+ countries.
+
+### Safety & Security
+
+**Are transactions auto-approved?**
+No. Every transaction requires explicit user confirmation. Slippage, gas fees, and risks are surfaced before confirmation. Private keys are never stored or accessed.
+
+### Troubleshooting
+
+**Deposit not appearing in wallet**
+Check the transaction hash on the block explorer. Cross-chain transfers via Chainlink CCIP may take several minutes. Verify the destination chain and token address are correct.
+
+**Skill not recognized by AI agent**
+Ensure the skill was installed correctly with `npx skills add`. Restart your coding assistant after installation. Check that your agent supports the open skills standard.
+
+**Fiat deposit failing**
+Verify your card is supported (Mastercard, Visa, Apple Pay, or Google Pay). Ensure your country is within the 170+ supported regions. Contact Swapper support if the issue persists.
+
+---
+
+
 For developers building apps who want to embed the deposit flow:
 
 ```bash
