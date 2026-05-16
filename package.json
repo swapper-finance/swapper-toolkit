@@ -1,13 +1,14 @@
 {
   "name": "swapper-toolkit",
   "version": "0.1.0",
-  "description": "DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor, Windsurf, OpenClaw, CrewAI, AutoGPT, and other AI agent frameworks.",
+  "description": "DeFi toolkit for AI agents and coding assistants — deposit funds, execute trades, and manage crypto wallets. Works with Claude Code, Cursor, Windsurf, OpenClaw, Autohand Code CLI, CrewAI, AutoGPT, and other AI agent frameworks.",
   "keywords": [
     "claude-code",
     "cursor",
     "windsurf",
     "copilot",
     "openclaw",
+    "autohand-code-cli",
     "crewai",
     "autogpt",
     "langchain",
