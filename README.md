@@ -2,7 +2,7 @@
 
 The payment layer for AI agents. Deposit funds, swap tokens, and manage wallets — directly from your AI agent or coding assistant.
 
-Works with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Cursor](https://cursor.com), [Windsurf](https://windsurf.com), [OpenClaw](https://openclaw.com), [GitHub Copilot](https://copilot.github.com), [CrewAI](https://crewai.com), [AutoGPT](https://autogpt.net), and any AI agent framework that supports the open skills standard.
+Works with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Cursor](https://cursor.com), [Windsurf](https://windsurf.com), [OpenClaw](https://openclaw.com), [GitHub Copilot](https://copilot.github.com), [CrewAI](https://crewai.com), [AutoGPT](https://agpt.co), and any AI agent framework that supports the open skills standard.
 
 Powered by [Chainlink CRE](https://chain.link/cre), [Chainlink CCIP](https://chain.link/cross-chain), and [Mastercard](https://mastercard.com).
 
