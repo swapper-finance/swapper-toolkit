@@ -1,0 +1,29 @@
+spec_version: "0.1.0"
+name: swapper-toolkit
+version: 0.1.0
+description: >
+  DeFi payment toolkit for AI agents and coding assistants. Gives agents the
+  ability to deposit funds, swap tokens, and manage crypto wallets directly
+  from a conversation. Handles fiat on-ramps (Mastercard, Visa, Apple Pay,
+  Google Pay), crypto transfers, and cross-chain bridging via Chainlink CCIP —
+  into lending, staking, and liquidity protocols across 10+ blockchains and
+  170+ countries. Powered by Chainlink CRE and Mastercard.
+author: swapperfinance
+license: MIT
+
+model:
+  preferred: anthropic:claude-sonnet-4-6
+
+skills:
+  - swapper-deposit
+
+runtime:
+  max_turns: 20
+
+compliance:
+  risk_tier: standard
+  supervision:
+    human_in_the_loop: always
+    kill_switch: true
+  data_governance:
+    pii_handling: redact
